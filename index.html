@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Wearther App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <img src="imagens/ping.png" class="ping">
+            <input type="text" placeholder="Entre com sua localização">
+            <button class="btn-confirma"><img src="imagens/procurar.png"></button>
+        </div>
+
+        <div class="nao-encontrado">
+            <img src="imagens/mike.png">
+            <p>Ops!!! Localização inválida ou não encontrada :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+        </div>
+
+        <div class="detalhes-do-tempo">
+            <div class="umidade">
+                <img src="imagens/umidade.png">
+                <div class="texto">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+
+            <div class="vento">
+                <img src="imagens/vento.png">
+                <div class="texto">
+                    <span></span>
+                    <p>Velocidade do vento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
